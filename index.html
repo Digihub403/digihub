@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<title>Digihub — Social Media Agency for Meta Ads, SEO & Lead Generation</title>
+<meta name="description" content="Digihub is a social media agency helping ambitious brands turn ad spend into pipeline with Facebook & Meta Ads, SEO, lead generation and content strategy. Book a free 30-minute strategy call.">
+<meta name="keywords" content="digital marketing agency, meta ads, facebook ads, seo agency, lead generation, content strategy">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Digihub — Social Media Agency">
+<meta property="og:description" content="Facebook & Meta Ads, SEO, Lead Generation and Content Strategy that compounds. Get a free strategy call.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.digihub.agency/">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: {
+            950: '#050D1C',
+            900: '#0A1830',
+            800: '#132A4D',
+            700: '#1E3D6E',
+            500: '#3D5A8A',
+          },
+          gold: {
+            600: '#C97F1E',
+            500: '#E0972A',
+            400: '#EFB25E',
+          },
+        },
+        fontFamily: {
+          display: ['Fraunces', 'serif'],
+          body: ['Inter', 'sans-serif'],
+        },
+      },
+    },
+  }
+</script>
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background-color: #FFFFFF; color: #334155; }
+  h1, h2, h3, .font-display { font-family: 'Fraunces', serif; color: #0A1830; font-weight: 600; }
+  a { color: inherit; }
+
+  ::selection { background: #E0972A; color: #FFFFFF; }
+
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 2px solid #C97F1E;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
+
+  .num-counter { font-variant-numeric: tabular-nums; }
+
+  #mobile-menu { transition: max-height 0.35s ease, opacity 0.25s ease; }
+
+  .service-row { transition: background-color 0.3s ease; }
+  .service-row:hover { background-color: #FBF7EF; }
+  .service-row:hover .service-arrow { transform: translateX(6px); opacity: 1; }
+  .service-arrow { transition: transform 0.3s ease, opacity 0.3s ease; opacity: 0; }
+</style>
+</head>
+
+<body class="antialiased">
+
+<!-- ============ HEADER ============ -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-navy-900/8">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="flex items-center justify-between h-20">
+
+      <!-- Logo -->
+      <a href="#top" class="flex items-center shrink-0">
+        <img src="assets/digihub-logo.png" alt="Digihub — Social Media Agency" class="h-9 w-auto">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-9" aria-label="Primary">
+        <a href="#services" class="text-sm text-navy-900/70 hover:text-navy-900 transition-colors">Services</a>
+        <a href="#results" class="text-sm text-navy-900/70 hover:text-navy-900 transition-colors">Why Us</a>
+        <a href="#contact" class="text-sm text-navy-900/70 hover:text-navy-900 transition-colors">Get Started</a>
+      </nav>
+
+      <div class="hidden lg:block">
+        <a href="#contact" class="inline-flex items-center rounded-full bg-navy-900 hover:bg-navy-800 text-white font-semibold text-sm px-5 py-2.5 transition-colors">
+          Free Strategy Call
+        </a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden p-2 -mr-2 text-navy-900">
+        <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav id="mobile-menu" class="lg:hidden max-h-0 opacity-0 overflow-hidden" aria-label="Mobile">
+      <div class="flex flex-col gap-1 pb-6 pt-2 border-t border-navy-900/8">
+        <a href="#services" class="py-3 text-navy-900/80">Services</a>
+        <a href="#results" class="py-3 text-navy-900/80">Why Us</a>
+        <a href="#contact" class="mt-2 inline-flex justify-center rounded-full bg-navy-900 text-white font-semibold text-sm px-5 py-3">Free Strategy Call</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="relative pt-40 pb-20 lg:pt-52 lg:pb-28 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <p class="text-gold-600 font-medium text-sm mb-6 tracking-wide">Social media marketing agency</p>
+
+    <h1 class="font-display font-bold text-[2.6rem] sm:text-6xl lg:text-[5.2rem] leading-[1.02] max-w-4xl">
+      Social media marketing, built around your business.
+    </h1>
+
+    <div class="mt-10 grid lg:grid-cols-12 gap-10 items-end">
+      <p class="lg:col-span-6 text-lg text-slate-600 leading-relaxed">
+        Digihub is a social media agency where your account isn't handed off once the contract is signed. The same people who plan your strategy are the ones running it — start to finish.
+      </p>
+
+      <div class="lg:col-span-6 flex flex-col sm:flex-row gap-4 lg:justify-end">
+        <a href="#contact" class="inline-flex items-center justify-center rounded-full bg-gold-500 hover:bg-gold-600 text-white font-semibold px-7 py-4 transition-colors">
+          Get Free Strategy Call
+        </a>
+        <a href="#services" class="inline-flex items-center justify-center rounded-full border border-navy-900/20 hover:border-navy-900/40 text-navy-900 font-medium px-7 py-4 transition-colors">
+          See what we do
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero value strip -->
+    <div class="mt-20 grid grid-cols-3 divide-x divide-navy-900/10 border-y border-navy-900/10 py-8">
+      <div class="px-4 sm:px-8">
+        <p class="font-display font-bold text-lg sm:text-xl text-navy-900">Direct access</p>
+        <p class="mt-1 text-xs sm:text-sm text-slate-500">To the people actually running your account</p>
+      </div>
+      <div class="px-4 sm:px-8">
+        <p class="font-display font-bold text-lg sm:text-xl text-navy-900">Limited client slots</p>
+        <p class="mt-1 text-xs sm:text-sm text-slate-500">We take on a handful of brands at a time</p>
+      </div>
+      <div class="px-4 sm:px-8">
+        <p class="font-display font-bold text-lg sm:text-xl text-navy-900">Platform-native strategy</p>
+        <p class="mt-1 text-xs sm:text-sm text-slate-500">Built around how each platform's algorithm actually works</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ SERVICES (numbered list) ============ -->
+<section id="services" class="py-24 lg:py-32">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="max-w-2xl mb-16">
+      <h2 class="font-display font-bold text-3xl sm:text-4xl">Four disciplines, one growth engine</h2>
+      <p class="mt-4 text-slate-600 text-lg leading-relaxed">Each service works on its own — together, they compound.</p>
+    </div>
+
+    <div class="border-t border-navy-900/10">
+
+      <a href="#contact" class="service-row group grid grid-cols-12 items-center gap-4 py-8 sm:py-10 border-b border-navy-900/10 px-2 sm:px-4">
+        <span class="col-span-2 sm:col-span-1 font-display text-sm text-gold-600">01</span>
+        <div class="col-span-10 sm:col-span-6">
+          <h3 class="font-display font-semibold text-xl sm:text-2xl">Facebook &amp; Meta Ads</h3>
+        </div>
+        <p class="hidden sm:block sm:col-span-4 text-sm text-slate-500 leading-relaxed">Creative testing, audience structuring and bid strategy built for consistent CPL.</p>
+        <svg class="service-arrow hidden sm:block sm:col-span-1 justify-self-end w-6 h-6 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+
+      <a href="#contact" class="service-row group grid grid-cols-12 items-center gap-4 py-8 sm:py-10 border-b border-navy-900/10 px-2 sm:px-4">
+        <span class="col-span-2 sm:col-span-1 font-display text-sm text-gold-600">02</span>
+        <div class="col-span-10 sm:col-span-6">
+          <h3 class="font-display font-semibold text-xl sm:text-2xl">SEO</h3>
+        </div>
+        <p class="hidden sm:block sm:col-span-4 text-sm text-slate-500 leading-relaxed">Technical fixes, topical content clusters and link building that convert.</p>
+        <svg class="service-arrow hidden sm:block sm:col-span-1 justify-self-end w-6 h-6 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+
+      <a href="#contact" class="service-row group grid grid-cols-12 items-center gap-4 py-8 sm:py-10 border-b border-navy-900/10 px-2 sm:px-4">
+        <span class="col-span-2 sm:col-span-1 font-display text-sm text-gold-600">03</span>
+        <div class="col-span-10 sm:col-span-6">
+          <h3 class="font-display font-semibold text-xl sm:text-2xl">Lead Generation</h3>
+        </div>
+        <p class="hidden sm:block sm:col-span-4 text-sm text-slate-500 leading-relaxed">Landing pages, funnels and CRM handoffs so no lead sits unattended.</p>
+        <svg class="service-arrow hidden sm:block sm:col-span-1 justify-self-end w-6 h-6 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+
+      <a href="#contact" class="service-row group grid grid-cols-12 items-center gap-4 py-8 sm:py-10 border-b border-navy-900/10 px-2 sm:px-4">
+        <span class="col-span-2 sm:col-span-1 font-display text-sm text-gold-600">04</span>
+        <div class="col-span-10 sm:col-span-6">
+          <h3 class="font-display font-semibold text-xl sm:text-2xl">Content Strategy</h3>
+        </div>
+        <p class="hidden sm:block sm:col-span-4 text-sm text-slate-500 leading-relaxed">A content calendar tied to funnel stage — trust before the sales call.</p>
+        <svg class="service-arrow hidden sm:block sm:col-span-1 justify-self-end w-6 h-6 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW WE WORK ============ -->
+<section class="py-24 lg:py-32 bg-navy-950 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="max-w-2xl mb-16">
+      <h2 class="font-display font-bold text-3xl sm:text-4xl !text-white">How a project actually moves</h2>
+      <p class="mt-4 text-lg leading-relaxed" style="color:#9CACC4">No 40-slide onboarding deck. Just a process that gets your account live and learning, fast.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden">
+
+      <div class="bg-navy-950 p-8">
+        <span class="font-display text-sm text-gold-400">01</span>
+        <h3 class="font-display font-semibold text-xl !text-white mt-4 mb-3">Discover</h3>
+        <p class="text-sm leading-relaxed" style="color:#93A2BC">A working session on your audience, your competitors, and what's actually stopping growth right now.</p>
+      </div>
+
+      <div class="bg-navy-950 p-8">
+        <span class="font-display text-sm text-gold-400">02</span>
+        <h3 class="font-display font-semibold text-xl !text-white mt-4 mb-3">Plan</h3>
+        <p class="text-sm leading-relaxed" style="color:#93A2BC">A channel-by-channel plan with clear targets, so you know exactly what success looks like before we start.</p>
+      </div>
+
+      <div class="bg-navy-950 p-8">
+        <span class="font-display text-sm text-gold-400">03</span>
+        <h3 class="font-display font-semibold text-xl !text-white mt-4 mb-3">Create &amp; Launch</h3>
+        <p class="text-sm leading-relaxed" style="color:#93A2BC">Creative, copy and campaigns built for the platform they're running on, not repurposed from somewhere else.</p>
+      </div>
+
+      <div class="bg-navy-950 p-8">
+        <span class="font-display text-sm text-gold-400">04</span>
+        <h3 class="font-display font-semibold text-xl !text-white mt-4 mb-3">Track &amp; Improve</h3>
+        <p class="text-sm leading-relaxed" style="color:#93A2BC">Weekly check-ins on what's working, what isn't, and what we're changing next — no surprises at month-end.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="results" class="py-24 lg:py-32 bg-navy-900">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="grid lg:grid-cols-12 gap-16 items-start">
+
+      <div class="lg:col-span-5">
+        <h2 class="font-display font-bold text-3xl sm:text-4xl !text-white">Built differently, from day one</h2>
+        <p class="mt-5 text-navy-100/70 text-lg leading-relaxed" style="color:#B9C4D6">
+          No inherited processes, no bloated retainers, no strategy that changes hands halfway through. Digihub is structured so every client works directly with the people setting the strategy.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="flex gap-3">
+            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0"></span>
+            <span style="color:#D7DEE9">One point of contact who actually knows your account</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0"></span>
+            <span style="color:#D7DEE9">Weekly reporting tied to leads and CAC, not vanity metrics</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0"></span>
+            <span style="color:#D7DEE9">No lock-in contracts — we earn renewal every month</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-7 grid grid-cols-2 gap-5">
+        <div class="rounded-xl border border-white/10 p-8">
+          <p class="font-display font-bold text-4xl text-gold-400"><span class="counter num-counter" data-target="24" data-suffix=" hrs">0</span></p>
+          <p class="mt-2 text-sm" style="color:#9CACC4">Guaranteed first response time</p>
+        </div>
+        <div class="rounded-xl border border-white/10 p-8">
+          <p class="font-display font-bold text-4xl text-gold-400"><span class="counter num-counter" data-target="100" data-suffix="%">0</span></p>
+          <p class="mt-2 text-sm" style="color:#9CACC4">Strategy calls led by the founders</p>
+        </div>
+        <div class="rounded-xl border border-white/10 p-8">
+          <p class="font-display font-bold text-4xl text-gold-400">One</p>
+          <p class="mt-2 text-sm" style="color:#9CACC4">Point of contact, from strategy to execution</p>
+        </div>
+        <div class="rounded-xl border border-white/10 p-8">
+          <p class="font-display font-bold text-4xl text-gold-400">Plain</p>
+          <p class="mt-2 text-sm" style="color:#9CACC4">Reporting in numbers you actually understand</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEAD FORM ============ -->
+<section id="contact" class="py-24 lg:py-32">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-start">
+
+    <div class="lg:col-span-5">
+      <h2 class="font-display font-bold text-3xl sm:text-4xl">Book your free strategy call</h2>
+      <p class="mt-4 text-slate-600 text-lg leading-relaxed">
+        Tell us where you're stuck. In 30 minutes we'll map out where your budget is leaking and what to fix first — no pitch deck required.
+      </p>
+      <p class="mt-8 text-sm text-slate-500">Response within one business day</p>
+      <a href="mailto:digihub403@gmail.com" class="mt-2 inline-flex items-center gap-2 text-sm text-navy-900 font-medium hover:text-gold-600 transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        digihub403@gmail.com
+      </a>
+    </div>
+
+    <div class="lg:col-span-7">
+      <form id="lead-form" novalidate class="rounded-2xl border border-navy-900/10 p-7 sm:p-9 space-y-5">
+
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label for="name" class="block text-sm text-navy-900/80 mb-2">Full name</label>
+            <input type="text" id="name" name="name" required
+              class="w-full rounded-lg bg-white border border-navy-900/15 px-4 py-3 text-navy-900 placeholder-slate-400 focus:border-gold-500 transition-colors"
+              placeholder="Your name">
+            <p class="error-msg hidden text-xs text-red-600 mt-1.5">Please enter your name.</p>
+          </div>
+
+          <div>
+            <label for="phone" class="block text-sm text-navy-900/80 mb-2">Phone number</label>
+            <input type="tel" id="phone" name="phone" required
+              class="w-full rounded-lg bg-white border border-navy-900/15 px-4 py-3 text-navy-900 placeholder-slate-400 focus:border-gold-500 transition-colors"
+              placeholder="+91 98765 43210">
+            <p class="error-msg hidden text-xs text-red-600 mt-1.5">Please enter a valid phone number.</p>
+          </div>
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm text-navy-900/80 mb-2">Work email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full rounded-lg bg-white border border-navy-900/15 px-4 py-3 text-navy-900 placeholder-slate-400 focus:border-gold-500 transition-colors"
+            placeholder="you@company.com">
+          <p class="error-msg hidden text-xs text-red-600 mt-1.5">Please enter a valid email address.</p>
+        </div>
+
+        <div>
+          <label for="service" class="block text-sm text-navy-900/80 mb-2">Which service interests you?</label>
+          <select id="service" name="service" required
+            class="w-full rounded-lg bg-white border border-navy-900/15 px-4 py-3 text-navy-900 focus:border-gold-500 transition-colors">
+            <option value="" disabled selected>Select a service</option>
+            <option value="meta-ads">Facebook &amp; Meta Ads</option>
+            <option value="seo">SEO</option>
+            <option value="lead-gen">Lead Generation</option>
+            <option value="content">Content Strategy</option>
+            <option value="not-sure">Not sure yet</option>
+          </select>
+          <p class="error-msg hidden text-xs text-red-600 mt-1.5">Please select a service.</p>
+        </div>
+
+        <button type="submit" class="w-full inline-flex items-center justify-center rounded-full bg-navy-900 hover:bg-navy-800 text-white font-semibold px-7 py-4 transition-colors">
+          Request my free strategy call
+        </button>
+
+        <p id="form-success" class="hidden text-sm text-gold-600 text-center pt-1">Thanks — we've received your details and will reach out within one business day.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="pt-16 pb-8 border-t border-navy-900/10">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="flex flex-col sm:flex-row justify-between gap-8 pb-10 border-b border-navy-900/10">
+
+      <div class="max-w-xs">
+        <a href="#top" class="flex items-center">
+          <img src="assets/digihub-logo.png" alt="Digihub — Social Media Agency" class="h-8 w-auto">
+        </a>
+        <p class="mt-4 text-sm text-slate-500 leading-relaxed">Social media marketing for brands that want revenue, not reach.</p>
+      </div>
+
+      <div class="flex flex-col sm:items-end gap-4">
+        <div class="flex flex-col sm:items-end gap-1.5 text-sm text-slate-500">
+          <a href="mailto:digihub403@gmail.com" class="hover:text-gold-600 transition-colors">digihub403@gmail.com</a>
+          <a href="https://wa.me/919170852204" class="hover:text-gold-600 transition-colors">+91 91708 52204</a>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://facebook.com" aria-label="Facebook" class="w-10 h-10 rounded-full border border-navy-900/15 flex items-center justify-center text-navy-900/60 hover:text-gold-600 hover:border-gold-500/40 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.17 2.09 15.95 2 14.66 2 11.98 2 10 3.66 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
+          </a>
+          <a href="https://instagram.com" aria-label="Instagram" class="w-10 h-10 rounded-full border border-navy-900/15 flex items-center justify-center text-navy-900/60 hover:text-gold-600 hover:border-gold-500/40 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2c2.72 0 3.05.01 4.12.06 1.07.05 1.8.22 2.44.47a4.9 4.9 0 011.78 1.16 4.9 4.9 0 011.16 1.78c.25.64.42 1.37.47 2.44C21.99 8.95 22 9.28 22 12s-.01 3.05-.06 4.12c-.05 1.07-.22 1.8-.47 2.44a4.9 4.9 0 01-1.16 1.78 4.9 4.9 0 01-1.78 1.16c-.64.25-1.37.42-2.44.47C15.05 21.99 14.72 22 12 22s-3.05-.01-4.12-.06c-1.07-.05-1.8-.22-2.44-.47a4.9 4.9 0 01-1.78-1.16 4.9 4.9 0 01-1.16-1.78c-.25-.64-.42-1.37-.47-2.44C2.01 15.05 2 14.72 2 12s.01-3.05.06-4.12c.05-1.07.22-1.8.47-2.44a4.9 4.9 0 011.16-1.78A4.9 4.9 0 015.47 2.5c.64-.25 1.37-.42 2.44-.47C8.95 2.01 9.28 2 12 2zm0 1.8c-2.67 0-2.99.01-4.04.06-.87.04-1.34.18-1.66.31-.42.16-.72.36-1.03.67-.32.32-.51.61-.67 1.03-.13.32-.27.8-.31 1.66-.05 1.05-.06 1.37-.06 4.04s.01 2.99.06 4.04c.04.87.18 1.34.31 1.66.16.42.36.72.67 1.03.32.32.61.51 1.03.67.32.13.8.27 1.66.31 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.87-.04 1.34-.18 1.66-.31.42-.16.72-.36 1.03-.67.32-.32.51-.61.67-1.03.13-.32.27-.8.31-1.66.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.87-.18-1.34-.31-1.66a2.76 2.76 0 00-.67-1.03 2.76 2.76 0 00-1.03-.67c-.32-.13-.8-.27-1.66-.31C14.99 3.81 14.67 3.8 12 3.8zm0 3.05a5.15 5.15 0 110 10.3 5.15 5.15 0 010-10.3zm0 1.8a3.35 3.35 0 100 6.7 3.35 3.35 0 000-6.7zm5.35-1.99a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/></svg>
+          </a>
+          <a href="https://linkedin.com" aria-label="LinkedIn" class="w-10 h-10 rounded-full border border-navy-900/15 flex items-center justify-center text-navy-900/60 hover:text-gold-600 hover:border-gold-500/40 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-.95 1.82-1.95 3.75-1.95 4 0 4.75 2.5 4.75 5.75V21h-4v-5.6c0-1.35-.03-3.1-1.9-3.1-1.9 0-2.2 1.45-2.2 3v5.7h-4V9z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+      <p>© <span id="year"></span> Digihub. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-navy-900 transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-navy-900 transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile menu toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('icon-open');
+  const iconClose = document.getElementById('icon-close');
+  let menuIsOpen = false;
+
+  menuToggle.addEventListener('click', () => {
+    menuIsOpen = !menuIsOpen;
+    menuToggle.setAttribute('aria-expanded', String(menuIsOpen));
+    if (menuIsOpen) {
+      mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
+      mobileMenu.style.opacity = '1';
+    } else {
+      mobileMenu.style.maxHeight = '0px';
+      mobileMenu.style.opacity = '0';
+    }
+    iconOpen.classList.toggle('hidden', menuIsOpen);
+    iconClose.classList.toggle('hidden', !menuIsOpen);
+  });
+
+  mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      menuIsOpen = false;
+      mobileMenu.style.maxHeight = '0px';
+      mobileMenu.style.opacity = '0';
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Animated stat counters (run once, when visible)
+  const counters = document.querySelectorAll('.counter');
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function animateCounter(el) {
+    const target = parseFloat(el.dataset.target);
+    const decimals = parseInt(el.dataset.decimals || '0', 10);
+    const suffix = el.dataset.suffix || '';
+    if (prefersReducedMotion) {
+      el.textContent = target.toFixed(decimals) + suffix;
+      return;
+    }
+    const duration = 1400;
+    const start = performance.now();
+
+    function tick(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const value = target * eased;
+      el.textContent = value.toFixed(decimals) + suffix;
+      if (progress < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(c => counterObserver.observe(c));
+
+  // Lead form validation + fake submit
+  const form = document.getElementById('lead-form');
+  const successMsg = document.getElementById('form-success');
+
+  function showError(input, show) {
+    const wrapper = input.closest('div');
+    const msg = wrapper.querySelector('.error-msg');
+    if (!msg) return;
+    msg.classList.toggle('hidden', !show);
+    input.classList.toggle('border-red-400', show);
+    input.classList.toggle('border-navy-900/15', !show);
+  }
+
+  function isValidEmail(value) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  }
+
+  function isValidPhone(value) {
+    return /^[\d\s()+-]{7,}$/.test(value);
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let valid = true;
+
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const phone = document.getElementById('phone');
+    const service = document.getElementById('service');
+
+    if (!name.value.trim()) { showError(name, true); valid = false; } else { showError(name, false); }
+    if (!isValidEmail(email.value.trim())) { showError(email, true); valid = false; } else { showError(email, false); }
+    if (!isValidPhone(phone.value.trim())) { showError(phone, true); valid = false; } else { showError(phone, false); }
+    if (!service.value) { showError(service, true); valid = false; } else { showError(service, false); }
+
+    if (!valid) return;
+
+    // No backend wired up — replace this block with your API/CRM call.
+    successMsg.classList.remove('hidden');
+    form.reset();
+    setTimeout(() => successMsg.classList.add('hidden'), 6000);
+  });
+</script>
+
+<!-- ============ WHATSAPP FLOATING BUTTON ============ -->
+<a href="https://wa.me/919170852204?text=Hi%20Digihub%2C%20I'd%20like%20to%20know%20more%20about%20your%20services"
+   target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp"
+   class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] shadow-lg shadow-black/20 hover:scale-105 transition-transform">
+  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 004.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.09c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.17-1.56-1.17-2.98 0-1.42.74-2.11 1.01-2.4.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 2 .88 2.15.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.35 1.45.29.15.46.13.63-.08.17-.21.72-.84.92-1.13.19-.29.39-.24.65-.14.27.1 1.69.8 1.98.94.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+</a>
+
+</body>
+</html>
