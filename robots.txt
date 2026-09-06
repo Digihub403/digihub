@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digihub403.github.io/digihub/sitemap.xml
